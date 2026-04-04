@@ -1,0 +1,34 @@
+body{
+  background-color: #EDC9AF;
+}
+
+h1{
+  margin-top: 50px;
+  font-size: 30px;
+  text-align: center;
+  font-family: sans-serif;
+  color: #B88E5E;
+
+  }
+
+.todo-list{
+  background-color: #F5F5DC;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 50px;
+}
+
+li{
+  list-style: none;
+}
+
+label{
+  margin: 20px;
+}
+
+hr{
+  border: none;
+  height: 1px;
+  background-color: #FF0000;
+  width: 80%;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Styled To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+.sub-item-link{
+  text-decoration: none;
+}
+.sub-item-link:visited{
+  color: red;
+}
+.sub-item-link:link{
+  color: purple;
+}
+
+.sub-item-link:hover{
+  color: grey;
+}
+
+.sub-item-link:active{
+  color: orange;
+}
+
+.sub-item-link:focus{
+  outline: black;
+}
+</style>
+<body>
+  <h1>To do List</h1>
+   <ul class="todo-list">
+  <li>
+    <label for="tarefa1">
+      <input id="tarefa1" type="checkbox"> Praticar Cypress (teste de login)
+    </label>
+    <ul class="sub-item">
+    <li><a class="sub-item-link" href="" target="_blank">Ver exercícios de Cypress</a></li>
+    </ul>
+  </li>
+  <hr>
+  <li>
+    <label for="tarefa2">
+      <input id="tarefa2" type="checkbox"> Estudar estrutura de testes (describe, it)
+    </label>
+    <ul class="sub-item">
+    <li><a class="sub-item-link" href="" target="_blank">Acessar conteúdo de inglês</a></li>
+    </ul>
+  </li>
+  <hr>
+  <li>
+    <label for="tarefa3">
+      <input id="tarefa3" type="checkbox"> Estudar 10 palavras em inglês
+    </label>
+    <ul class="sub-item">
+    <li><a class="sub-item-link" href="" target="_blank">Praticar lógica de programação</a></li>
+    </ul>
+  </li>
+  <hr>
+  <li>
+    <label for="tarefa4">
+      <input id="tarefa4" type="checkbox"> Resolver exercício de JavaScript
+    </label>
+   <ul class="sub-item">
+    <li><a class="sub-item-link" href="" target="_blank">Ver meu projeto no GitHub</a></li>
+    </ul>
+  </li>
+</body>
+
+</html>
